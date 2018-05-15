@@ -1,9 +1,5 @@
 function onOpen() {
-
-  // REMOVE THIS PROMPT
-  DocumentApp.getUi().alert('Open the script editor to get started!');
-  //
-  
+ 
   DocumentApp.getUi()
     .createAddonMenu()
     .addItem('Open Modal', 'openModal')
